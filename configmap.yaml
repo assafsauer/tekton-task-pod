@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: project-config
+data:
+  PROJECT_ID: "your-project-id"
+  ORG: "your-org"
+  ENV: "your-env"
+  APIGEE_TOKEN: "your-apigee-token"
+  SERVICE_ACCOUNT_KEY: "your-service-account-key"
+  AX_REGION: "europe-west1"
+  REGION: "europe-west1"
+  ZONE: "europe-west1-b,europe-west1-c,europe-west1-d"
+  NETWORK: "apigee-hybrid"
+  SUBNET: "apigee-europe-west1"
+  GKE_CLUSTER_NAME: "apigee-hybrid"
+  GKE_CLUSTER_MACHINE_TYPE: "e2-standard-4"
+  ENV_NAME: "test1"
+  ENV_GROUP_NAME: "test"
+  DNS_NAME: "my-ingress-ip.nip.io"
+  INGRESS_TYPE: "external"
+  CERT_TYPE: "google-managed"

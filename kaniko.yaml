@@ -10,17 +10,6 @@ spec:
     - "--context=git://github.com/assafsauer/tekton-task-pod.git#refs/heads/main"
     - "--context-sub-path=image" 
     - "--destination=asauer/tester:latest"
-    env:
-      - name: GIT_PASSWORD
-        valueFrom:
-          secretKeyRef:
-            name: git-token
-            key: password
-      - name: GIT_USERNAME
-        valueFrom:
-          secretKeyRef:
-            name: git-token
-            key: username
     volumeMounts:
     - name: kaniko-secret
       mountPath: /kaniko/.docker
