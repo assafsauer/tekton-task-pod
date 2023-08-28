@@ -1,6 +1,6 @@
 ** quick guide **
 
-```
+```diff
 1) creat docker secret for the kaniko 
 kubectl create secret docker-registry dockercred -n default \
     --docker-server=https://index.docker.io/v1/ \
@@ -12,6 +12,8 @@ kubectl create secret docker-registry dockercred -n default \
 
 3) execute script from a POD steps.sh
 https://github.com/apigee/devrel/tree/main/tools/hybrid-quickstart
+```
+
+<img width="714" alt="image" src="https://github.com/assafsauer/tekton-task-pod/assets/22165556/798b3682-b879-4fa2-a5ca-a9c8c344cbc5">
 
 
-<img width="695" alt="image" src="https://github.com/assafsauer/tekton-task-pod/assets/22165556/2264b222-5018-4eae-a7aa-8322be85def7">
