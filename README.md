@@ -12,3 +12,6 @@ kubectl create secret docker-registry dockercred -n default \
 
 3) execute script from a POD steps.sh
 https://github.com/apigee/devrel/tree/main/tools/hybrid-quickstart
+
+
+<img width="695" alt="image" src="https://github.com/assafsauer/tekton-task-pod/assets/22165556/2264b222-5018-4eae-a7aa-8322be85def7">
